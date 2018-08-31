@@ -1,0 +1,204 @@
+body, html {
+  font-size: 18px;
+}
+
+a {
+  color: #D35D47;
+}
+
+/* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
+
+
+/* div, section {
+  border: 1px solid black;
+} */
+
+
+/* Colour Bar Logo colours
+    #00a3d8 blue
+    #c22478 magenta
+    #fff500 yellow
+    #c1c1c1 grey
+    #ffffff white
+ */
+
+h1 {
+
+  /* padding: 30px; */
+}
+
+h2 {
+  /* font-size: 40px; */
+  padding: 30px;
+  font-weight: bold;
+}
+
+h4{
+  font-weight: bold;
+}
+
+section {
+    padding: .1em 3em 3em 3em;
+}
+
+/* Navbar */
+
+.company img {
+  height: 2.5rem;
+  padding-right: 1rem;
+  margin-top: 2px;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #D35D47;
+  border:0px;
+  border-radius: 0 !important;
+}
+
+/* colours for links in navbar */
+ul.nav li a, ul.nav li a:visited {
+    color: #ffc500 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #ffeb00 !important;
+}
+
+ul.nav li.active a {
+    color: #ffc500 !important;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/dining.jpg");
+  color: #ffc500 !important;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.cbtitle{
+  padding: 30px 30px -30px 30px;
+  /* These two below set a background and width for the text */
+  /* background-color: rgba(0, 0, 0, 0.25);
+  width:75%; */
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+/* h1 span{
+  background-color: rgba(0, 0, 0, 0.25);
+} */
+
+
+.jumbotron p {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.jumbotron h1{
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.btn {
+  background-color: #D35D47;
+  color: #ffc500;
+  font-style:normal;
+  font-size: 1.5rem;
+  font-weight:600;
+  letter-spacing: 2px;
+  border:0px;
+}
+
+.btn-primary:hover {
+    background-color: #ffc500;
+    color: #D35D47;
+
+}
+
+/* ......menu section.......... */
+
+#menu {
+  background-color: #D35D47;
+  color:#ffc500;
+}
+
+/* ..........Stylists Section........... */
+
+#gallery {
+  background-color: #ffc500;
+  color: #D35D47;
+}
+
+ion-icon {
+  font-size: 64px;
+}
+
+
+.row img {
+  /* margin: 20px 0; */
+}
+
+.sect-title{
+  margin:auto;
+}
+
+/*...............Contact Section...............*/
+
+
+#contact {
+  background-color: #D35D47;
+  color:#ffc500;
+}
+
+.map{
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+/* .infoframe{
+  border: 1px solid rgba(204, 204, 204, 0.75);
+} */
+
+.row p{
+  text-align: center;
+  /* color:black; */
+}
+
+
+/* ............Social Section.......... */
+
+#social {
+  background-color: #ffc500;
+  color:#D35D47;
+  /* padding: 1rem */
+}
+
+
+.mh1 div {
+  height: 10vh;
+  /* padding: -1rem; */
+}
+
+
+
+
+/* ......................Footer................ */
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
+}
